@@ -1,0 +1,37 @@
+/* Custom style overrides */
+:root {
+    --color-primary: #0D253F;
+    --color-secondary: #01B4E4;
+    --color-accent: #90cea1;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Form input focus styles */
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(1, 180, 228, 0.3);
+}
+
+/* Button hover effects */
+.btn-gradient {
+    transition: all 0.3s ease;
+}
+
+/* Mobile menu animation */
+.mobile-menu {
+    transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-content {
+        text-align: center;
+    }
+    .hero-buttons {
+        flex-direction: column;
+    }
+}
